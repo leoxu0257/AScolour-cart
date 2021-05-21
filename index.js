@@ -26,3 +26,8 @@ submitBtn.onclick = function() {
     total++;
     cartNumber.innerHTML = total;
 };
+
+var cart = document.getElementById("cart");
+cart.onclick = function(){
+    
+}

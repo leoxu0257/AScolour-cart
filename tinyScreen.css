@@ -1,12 +1,21 @@
+
 #cart{
     color: #888888
+}
+
+#pic{
+    margin-bottom: 20px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 90%;
 }
 
 .header{
     background: #F6F6F7;
     color: #222222;
     text-align: right;
-    width: 80%;
     margin: auto
 }
 
@@ -19,15 +28,7 @@
 
 .container{
     display: flex;
-}
-
-.img{
-    margin: 0 150px 0 100px;
-}
-
-.img #pic{
-    justify-content: start;
-    height: 90%;
+    flex-wrap: wrap;
 }
 
 .product-info #name{
