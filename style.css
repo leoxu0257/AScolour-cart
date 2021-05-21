@@ -1,0 +1,10 @@
+.header{
+    background: #F6F6F7;
+    color: #222222;
+    text-align: right;
+}
+.line {
+    width: 80%;
+    height: 1px;
+    border-top: solid #F8F8F8 0.2px;
+}
