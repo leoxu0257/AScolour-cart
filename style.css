@@ -2,9 +2,36 @@
     background: #F6F6F7;
     color: #222222;
     text-align: right;
+    width: 80%;
+    margin: auto
+}
+
+#cart{
+    color: #888888
 }
 .line {
     width: 80%;
     height: 1px;
+    margin: 10px;
     border-top: solid #F8F8F8 0.2px;
+}
+.container{
+    display: flex;
+}
+.img{
+    margin: 0 150px 0 100px;
+}
+.img #pic{
+    justify-content: start;
+    height: 800px;
+}
+.product-info #name{
+    font: lighter;
+}
+.product-info #description {
+    color: #888888;
+    /* width: 500px; */
+}
+.product-info #size #red-star{
+    color: #C90000;
 }
