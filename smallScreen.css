@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    /* width: 50%; */
 }
 
 .header{
@@ -31,12 +30,19 @@
     flex-wrap: wrap;
 }
 
+.product-info{
+    width: 250px;
+}
+
 .product-info #name{
     font: lighter;
 }
 
 .product-info #description {
     color: #888888;
+    word-break: break-word;
+    width: 250px;
+    padding-right: 20px;
 }
 
 .product-info #size #red-star{

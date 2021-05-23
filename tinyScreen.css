@@ -15,8 +15,8 @@
 .header{
     background: #F6F6F7;
     color: #222222;
-    text-align: right;
-    margin: auto
+    width: 100%;
+    /* text-align: right; */
 }
 
 .line {
@@ -29,14 +29,17 @@
 .container{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .product-info #name{
     font: lighter;
+    margin-right: 10px;
 }
 
 .product-info #description {
     color: #888888;
+    padding-right: 10px;
 }
 
 .product-info #size #red-star{
